@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+h1{
+    margin-top: 10%;
+}
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.output, .box{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: #ddd;
+    padding: 10px;
+}
+.output > div {
+    font-size: 2em;
+    margin: auto;
+}
+.output button, .box button{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+    color: white;
+    background-color: rgb(127, 127, 127);
+    margin: 5px;
+    font-size: 0.7em;
+    border-radius: 12px;
+}
+.output small{
+    text-align: center;
+    font: 0.4em;
+}
+.box, .box input, .box select{
+    text-align: center;
+    font-size: medium;
+    height: auto;
+}
+.box input {
+    width: 60px;
+}
+.box select{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.output button:hover, .box button:hover{
+    opacity: .5;
+    border: 1px double rgb(255, 255, 255);
+}
