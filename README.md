@@ -1,7 +1,7 @@
 # Trivia Game
 Javascript trivia game using the opentdb.com api.
 
-In this project I use AJAX and Javascript to display inputs and give the user feedback on their performance in answering the trivia questions. The api from opentdb provides different categories and difficulty that I allow the user to choose.
+In this project I use AJAX and Javascript to construct a trivia game with a pre-built API. This game gives the user feedback on their answer and at the end gives a score. The API is from opentdb. It provides different categories and difficulty that I incorporate and give the user to the ability to choose.
 
 
 
